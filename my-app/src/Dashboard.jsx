@@ -1,19 +1,11 @@
 import * as React from 'react';
-import PropTypes from 'prop-types';
-import DescriptionIcon from '@mui/icons-material/Description';
-import Box from '@mui/material/Box';
-import IconButton from '@mui/material/IconButton';
 import Stack from '@mui/material/Stack';
-import TextField from '@mui/material/TextField';
-import Tooltip from '@mui/material/Tooltip';
 import Typography from '@mui/material/Typography';
-import SearchIcon from '@mui/icons-material/Search';
 import { AppProvider } from '@toolpad/core/AppProvider';
 import ContactsIcon from '@mui/icons-material/Contacts';
 import { DashboardLayout } from '@toolpad/core/DashboardLayout';
 import { DemoProvider, useDemoRouter } from '@toolpad/core/internal';
 import { extendTheme } from '@mui/material/styles';
-import ResonateLogo from './logo.png'
 import PersonIcon from '@mui/icons-material/Person';
 import PageContent from './PageContent';
 import UnselectedContent from './UnselectedContent';

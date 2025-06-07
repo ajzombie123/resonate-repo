@@ -1,4 +1,4 @@
-import {Box, Paper, Typography, Avatar} from '@mui/material';
+import {Paper, Typography, Avatar} from '@mui/material';
 import { useState, useEffect } from 'react';
 import LocalPhoneIcon from '@mui/icons-material/LocalPhone';
 import EmailIcon from '@mui/icons-material/Email';
@@ -16,10 +16,7 @@ function PageContent({ userInfo, pathname }) {
   useEffect(() => {
     const foundUser = userInfo.find(user => user.id === userId);
     setUser(foundUser);
-    console.log(foundUser)
   }, [userInfo, userId]); 
-
-  console.log(user)
 
   if (!user) {
     return <></>;
@@ -105,13 +102,10 @@ function PageContent({ userInfo, pathname }) {
             <div className='mb-3'>{user.company.bs}</div>
 
           </Paper>
-
         </div>
       </div>
     </div>
   </div>
-      
-    
   );
 }
 

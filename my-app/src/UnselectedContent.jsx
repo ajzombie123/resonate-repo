@@ -1,5 +1,4 @@
-import {Box, Paper, Typography} from '@mui/material';
-import { useState, useEffect } from 'react';
+import {Paper, Typography} from '@mui/material';
 import ImportContactsIcon from '@mui/icons-material/ImportContacts';
 
 function UnselectedContent({ userInfo, pathname }) {
@@ -17,9 +16,6 @@ function UnselectedContent({ userInfo, pathname }) {
         </div>
       </Paper>
     </div>
-    
-      
-    
   );
 }
 
